@@ -1,0 +1,49 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:tools="http://schemas.android.com/tools"
+   tools:context="com.veckon.android.easywm.app.make.MakeActivity">
+
+ <item
+     android:id="@+id/menu_share"
+     android:icon="@drawable/share"
+     android:title="@string/share"
+     android:showAsAction="always"
+     android:actionProviderClass="android.widget.ShareActionProvider"
+     />
+
+ <item
+     android:id="@+id/menu_save"
+     android:icon="@drawable/save"
+     android:title="@string/save"
+     android:showAsAction="always"
+     />
+
+
+</menu>
+<!--<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.veckon.android.easywm.app.make.MakeActivity"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      >
+
+    <item
+        android:id="@+id/menu_share"
+        android:icon="@drawable/share"
+        android:title="@string/share"
+        android:showAsAction="always"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+        />
+
+    <item
+        android:id="@+id/menu_save"
+        android:icon="@drawable/save"
+        android:title="@string/save"
+        android:showAsAction="always"
+        />
+
+
+</menu>-->
+
+
+
+
+

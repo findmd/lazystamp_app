@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="btn">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Glametrix" parent="@android:style/Widget.ListView">
+        <item name="font">fonts/Glametrix.otf</item>
+    </style>
+    <!--<style name="Mikodacs" parent="@android:style/Widget.TextView">
+        <item name="android:typeface">Mikodacs</item>
+    </style>-->
+
+    <style name="CustomActionBarTheme"
+        parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar"
+        parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/white</item>
+
+        <!-- Support library compatibility -->
+        <item name="background">@color/white</item>
+    </style>
+</resources>

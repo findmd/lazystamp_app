@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.veckon.android.easywm.app" >
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/lazystamp_action"
+        android:label="@string/app_name"
+        android:theme="@style/CustomActionBarTheme" >
+        <activity
+            android:name="com.veckon.android.easywm.app.main.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <!-- <action android:name="android.intent.action.SEND_MULTIPLE" /> -->
+                <category android:name="android.intent.category.LAUNCHER" />
+                <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+                <!-- <data android:mimeType="image/*" /> -->
+            </intent-filter>
+        </activity>
+        <activity android:name="com.veckon.android.easywm.app.make.MakeActivity"
+            android:icon="@drawable/lazystamp_action"
+            android:label=""
+            >
+        </activity>
+        <activity android:name="com.veckon.android.easywm.app.save.SaveActivity"
+            android:icon="@drawable/lazystamp_action"
+            android:label="">
+        </activity>
+        <activity android:name="com.veckon.android.easywm.app.gallery.GalleryActivity"
+            android:icon="@drawable/lazystamp_action"
+            android:label="">
+            <intent-filter>
+                <action android:name="custom.ACTION_PICK" />
+                <action android:name="custom.ACTION_MULTIPLE_PICK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

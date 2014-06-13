@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string-array name="fonts">
+        <item android:typeFace="normal">normal</item>
+        <item android:typeFace="sans">sans</item>
+        <item android:typeFace="serif">serif</item>
+        <item android:typeFace="monospace">monospace</item>
+        <item android:typeFace="FoglihtenNo07calt">FoglihtenNo07calt</item>
+        <item android:textViewStyle="@style/Glametrix">Glametrix</item>
+        <item>Mikodacs</item>
+        <item>QumpellkaNo12</item>
+        <item>Resagokr</item>
+        <item>ResagokrBold</item>
+        <item>Yokawerad</item>
+        <item>Zantroke</item>
+    </string-array>
+</resources>
